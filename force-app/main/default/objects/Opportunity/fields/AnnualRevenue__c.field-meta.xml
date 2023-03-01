@@ -3,11 +3,10 @@
     <fullName>AnnualRevenue__c</fullName>
     <externalId>false</externalId>
     <formula>Account.AnnualRevenue</formula>
-    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Annual Revenue</label>
     <precision>18</precision>
     <required>false</required>
-    <scale>0</scale>
+    <scale>2</scale>
     <trackTrending>false</trackTrending>
     <type>Currency</type>
 </CustomField>

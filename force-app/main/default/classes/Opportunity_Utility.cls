@@ -12,7 +12,7 @@ public with sharing class Opportunity_Utility {
             }
 
             else if(monto[0] < opp.AnnualRevenue__c && opp.AnnualRevenue__c < monto[1]){
-                opp.classification__c = 'Amarillo';
+                opp.classification__c = color[1];
             }
 
             else if(monto[1] < opp.AnnualRevenue__c){
