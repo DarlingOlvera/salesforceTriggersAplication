@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Opportunity.AnnualRevenue__c</members>
+        <name>Annual Revenue</name>
+    </types>
+    <types>
+        <members>Opportunity.classification__c</members>
+        <name>classification</name>
+    </types>
+    <version>56.0</version>
+</Package>
